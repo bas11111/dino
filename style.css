@@ -9,12 +9,15 @@
     margin-left: 225px;
     margin-top: 100px;
 }
-#player{
+#character{
     height: 90px;
     width: 35px;
     background-color: red;
     position: relative;
     top: 410px;
+}
+.animate {
+    animation: jump 1s;
 }
 @keyframes jump{
     0%{top:410px;}
