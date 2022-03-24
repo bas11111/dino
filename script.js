@@ -1,8 +1,17 @@
-let player = document.getElementById('#player');
-let block = document.getElementById('#block');
+let player = document.getElementById('player');
+let block = document.getElementById('block');
+let jumpp = document.querySelector('jump');
+let blockk = document.querySelector('start');
 
 // Poppetje moet springen als er geklikt word met de muis //
-// Animate moet worden opgeroepen met muis klik //
+// Animatie moet worden opgeroepen met muis klik //
     function jump(){
-        console.log('hi')
-}
+        player.style.animation = ('jump 1s');
+        
+    }
+
+// Animatie moet stoppen als de speler geland is, dat is na 1 seconde //
+// Animatie stopt dus na 1 seconde stoppen //
+      
+
+      
